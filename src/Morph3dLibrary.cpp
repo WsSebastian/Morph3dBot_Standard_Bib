@@ -11,7 +11,7 @@ long entfernung = 0;
 int distance[4];
 int bcount = 0;
 
-
+// Huhu
 void setupUltraschallPins(int echoPin, int triggerPin){
   trigger = triggerPin;
   echo = echoPin;
