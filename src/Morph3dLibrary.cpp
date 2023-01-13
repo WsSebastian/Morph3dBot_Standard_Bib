@@ -11,7 +11,7 @@ long entfernung = 0;
 int distance[4];
 int bcount = 0;
 
-// test
+// Sebastian
 void setupUltraschallPins(int echoPin, int triggerPin){
   trigger = triggerPin;
   echo = echoPin;
@@ -118,3 +118,7 @@ void setUpI2CVerbindung(){
    // Function to run when data requested from master
   Wire.onRequest(slaveDatenSenden); 
 }
+
+// Armand
+
+// Tobias

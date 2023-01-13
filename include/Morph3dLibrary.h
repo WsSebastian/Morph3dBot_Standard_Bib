@@ -26,12 +26,17 @@ public:
     int distance[4];
     int bcount = 0;
 
+    //  Sebastian
     void setupUltraschallPins(int echoPin, int triggerPin);
     void entfernungMessenUltraschallCm();
     void entfernungMessenUltraschallMm();
     void masterDatenEmpfangen();
     void slaveDatenSenden();
     void setUpI2CVerbindung();
+
+    // Armand
+
+    // Tobias
 };
 
 #endif /* morph3dLibrary_H */
