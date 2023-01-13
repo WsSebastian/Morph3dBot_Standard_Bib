@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/sebastian/Desktop/Eingebettete Systeme/Morph3dBot_Standard_Bib/src",
+      "program": "/Users/sebastian/Desktop/Eingebettete Systeme/Morph3dBot_Standard_Bib/src/build/Debug/outDebug"
+    }
+  ]
+}
