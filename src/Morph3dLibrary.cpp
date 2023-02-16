@@ -122,3 +122,13 @@ void setUpI2CVerbindung(){
 // Armand
 
 // Tobias
+void Wetterstation(int temperatureSensorPin,int brightnessSensorPin){
+  temperatureSensorPin=temperatureSensorPin;
+  brightnessSensorPin=brightnessSensorPin;
+  Serial.begin(9600);
+}
+void datenAufnehmen(){
+  temperatureValue=analogRead(temperatureSensorPin);
+  mappedTemperatureValue=map(temperatureValue,0,410,-50,150);
+  brightnessValue=analogRead(brightnessSensorPin);
+}

@@ -37,6 +37,19 @@ public:
     // Armand
 
     // Tobias
+class Wetterstation{
+    public:
+    int temperatureSensorPin;
+    int brightnessSensorPin;
+    int temperatureValue;
+    int brightnessValue;
+    int mappedTemperatureValue;
+
+    Wetterstation(int temperatureSensorPin,int brightnessSensorPin);
+    void datenAufnehmen();
+    void setUpI2CConnection();
+    
+}      
 };
 
 #endif /* morph3dLibrary_H */
